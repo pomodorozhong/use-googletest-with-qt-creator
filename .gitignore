@@ -1,0 +1,11 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+*.autosave
+
+# qtcreator generated files
+*.pro.user*
+
+# Shadow build
+**/build-*-Debug
+**/build-*-Release
