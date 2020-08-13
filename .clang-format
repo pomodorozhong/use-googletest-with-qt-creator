@@ -1,0 +1,9 @@
+Language: Cpp
+BasedOnStyle: Google
+
+IndentWidth: 4
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: true
+ColumnLimit: 100
+BreakBeforeBraces: Allman
+PointerAlignment: Right
