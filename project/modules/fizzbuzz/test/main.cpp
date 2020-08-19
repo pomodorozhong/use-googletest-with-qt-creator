@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "tst_example_case.h"
+#include "tst_regular_case.h"
 
 int main(int argc, char *argv[])
 {

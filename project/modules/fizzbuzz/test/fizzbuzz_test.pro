@@ -9,7 +9,7 @@ CONFIG += thread
 CONFIG -= qt
 
 HEADERS += \
-        tst_example_case.h
+        tst_regular_case.h
 
 SOURCES += \
         main.cpp
