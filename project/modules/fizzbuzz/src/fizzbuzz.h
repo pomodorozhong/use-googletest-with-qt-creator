@@ -5,7 +5,7 @@
 class FizzBuzz
 {
 public:
-    static std::string Echo(std::string input);
+    static std::string GetOutputText(int index);
 };
 
 #endif  // FIZZBUZZ_H

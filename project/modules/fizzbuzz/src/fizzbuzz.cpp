@@ -1,12 +1,20 @@
 #include <fizzbuzz.h>
 
-std::string FizzBuzz::Echo(std::string input)
+std::string FizzBuzz::GetOutputText(int index)
 {
-    std::string output = input;
+    std::string output = "";
 
-    if (input == "fail_case")
+    if (index % 3 == 0)
     {
-        output = "something_wrong";
+        output = "Fizz";
+    }
+    else if (index % 5 == 0)
+    {
+        output = "Buzz";
+    }
+    else
+    {
+        output = std::to_string(index);
     }
 
     return output;
